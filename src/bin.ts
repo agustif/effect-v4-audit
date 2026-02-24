@@ -112,7 +112,7 @@ const cli = Command.make("effect-v4-audit", {
     }
   }))
 
-const main = Command.run(cli, { version: "0.2.0" }).pipe(
+const main = Command.run(cli, { version: "0.2.1" }).pipe(
   Effect.provide(NodeServices.layer)
 )
 
